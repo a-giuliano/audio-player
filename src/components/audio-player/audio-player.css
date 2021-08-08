@@ -1,0 +1,26 @@
+:host {
+  display: block;
+  font-family: sans-serif;
+}
+
+.container {
+  width: fit-content;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-button {
+  width: 16px;
+}
