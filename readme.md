@@ -1,6 +1,6 @@
 # Audio Player Component
 
-Read the [full audio player tutorial](https://anthonymgiuliano.medium.com/build-an-audio-player-component-with-stencil-fb230502a937) on Medium.
+Read the [full audio player tutorial](https://ionicframework.com/blog/building-with-stencil-audio-player-component/) on the Ionic blog.
 
 To run the app:
 
