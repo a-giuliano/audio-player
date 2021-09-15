@@ -7,8 +7,8 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface AudioPlayer {
+        "playerTitle": string;
         "src": string;
-        "title": string;
     }
 }
 declare global {
@@ -24,8 +24,8 @@ declare global {
 }
 declare namespace LocalJSX {
     interface AudioPlayer {
+        "playerTitle"?: string;
         "src"?: string;
-        "title"?: string;
     }
     interface IntrinsicElements {
         "audio-player": AudioPlayer;
