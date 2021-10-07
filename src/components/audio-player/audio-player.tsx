@@ -7,7 +7,7 @@ import { Component, h, Prop, State, Watch, getAssetPath } from '@stencil/core';
   shadow: true,
 })
 export class AudioPlayer {
-  @Prop() title: string;
+  @Prop() playerTitle: string;
   @Prop() src: string;
 
   @State() isPlaying: boolean = false;
@@ -50,7 +50,7 @@ export class AudioPlayer {
   render() {
     return (
       <div class="container">
-        <div class="title">{this.title}</div>
+        <div class="title">{this.playerTitle}</div>
         <div class="player">
           <div class="play-button" onClick={this.togglePlay}>
             {this.isPlaying ? <img src={getAssetPath('../../assets/pause.svg')} /> : <img src={getAssetPath('../../assets/play.svg')} />}
